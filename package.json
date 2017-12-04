@@ -1,0 +1,26 @@
+{
+  "name": "@mgjm/autobind",
+  "version": "1.0.0-pre",
+  "description": "Decorator for lazy binding of methods.",
+  "main": "autobind.js",
+  "types": "./index.d.ts",
+  "scripts": {
+    "test": "node test/autobind.js",
+    "build": "babel --presets env lib/* -o autobind.js",
+    "clean": "rm autobind.js",
+    "preversion": "npm test",
+    "version": "npm run build && git add autobind.js",
+    "postversion": "git push && git push --tags"
+  },
+  "author": "Martin Michaelis <code@mgjm.de>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1"
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "dependencies": {}
+}
