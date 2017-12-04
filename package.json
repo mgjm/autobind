@@ -9,7 +9,7 @@
     "build": "babel --presets env lib/* -o autobind.js",
     "clean": "rm autobind.js",
     "preversion": "npm test",
-    "version": "npm run build && git add autobind.js",
+    "version": "npm run build",
     "postversion": "git push && git push --tags"
   },
   "author": "Martin Michaelis <code@mgjm.de>",
@@ -22,5 +22,13 @@
     "lib": "lib",
     "test": "test"
   },
-  "dependencies": {}
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mgjm/autobind.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mgjm/autobind/issues"
+  },
+  "homepage": "https://github.com/mgjm/autobind#readme"
 }
