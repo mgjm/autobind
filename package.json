@@ -1,8 +1,14 @@
 {
   "name": "@mgjm/autobind",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Decorator for lazy binding of methods.",
-  "keywords": ["autobind", "decorator", "decorators", "babel", "typescript"],
+  "keywords": [
+    "autobind",
+    "decorator",
+    "decorators",
+    "babel",
+    "typescript"
+  ],
   "main": "autobind.js",
   "types": "./index.d.ts",
   "scripts": {
