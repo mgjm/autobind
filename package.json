@@ -1,6 +1,6 @@
 {
   "name": "@mgjm/autobind",
-  "version": "1.0.0-pre",
+  "version": "1.0.0",
   "description": "Decorator for lazy binding of methods.",
   "main": "autobind.js",
   "types": "./index.d.ts",
